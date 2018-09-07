@@ -6,8 +6,8 @@
 
 ## Setup
 
-- Add @nuxtjs/guess dependency using yarn or npm to your project
-- Add @nuxtjs/guess to modules section of ```nuxt.config.js```
+- Add `@nuxtjs/guess` dependency using yarn or npm to your project
+- Add `@nuxtjs/guess` to modules section of `nuxt.config.js`
 
 Simple usage
 
@@ -26,12 +26,15 @@ Using top level options
   modules: [
     [ '@nuxtjs/guess' ]
   ],
- 
   guess: { GA: '123456' }
 }
 ```
 
+Options given directly to [guess-webpack options](https://www.npmjs.com/package/guess-webpack#advanced-usage).
+
 ## Usage
+
+Nothing more to do, `@nuxtjs/guess` will automagically prefetch the routes depending of your Google Analytics stats 😎
 
 ## License
 
