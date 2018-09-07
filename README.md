@@ -9,10 +9,11 @@
 - Add @nuxtjs/guess dependency using yarn or npm to your project
 - Add @nuxtjs/guess to modules section of ```nuxt.config.js```
 
+Simple usage
+
 ```javascript
 {
   modules: [
-    // Simple usage
     [ '@nuxtjs/guess', { GA: '1234567' }]
  ]
 }
