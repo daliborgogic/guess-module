@@ -1,6 +1,6 @@
 # guess-module [wip]
 
-> Guess.js integration for Nuxt.js with [guess-webpack](https://www.npmjs.com/package/guess-webpack)
+>[ Guess.js](https://github.com/guess-js/guess) integration for [Nuxt.js](https://github.com/nuxt/nuxt.js/) with [guess-webpack](https://www.npmjs.com/package/guess-webpack)
 
 [![CircleCI](https://circleci.com/gh/daliborgogic/guess-module.svg?style=svg)](https://circleci.com/gh/daliborgogic/guess-module)
 
@@ -34,3 +34,5 @@ Using top level options
 ## Usage
 
 ## License
+
+MIT
