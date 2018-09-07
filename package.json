@@ -8,6 +8,7 @@
     "test": "node_modules/.bin/ava --serial --verbose",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
+  "main": "lib/module.js",
   "devDependencies": {
     "ava": "^0.25.0",
     "eslint": "^5.5.0",
