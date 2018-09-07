@@ -1,4 +1,4 @@
-# guess-module
+# guess-module [wip]
 
 > Guess.js integration for Nuxt.js with [guess-webpack](https://www.npmjs.com/package/guess-webpack)
 
