@@ -9,24 +9,11 @@
 - Add `@nuxtjs/guess` dependency using yarn or npm to your project
 - Add `@nuxtjs/guess` to modules section of `nuxt.config.js`
 
-Simple usage
-
 ```javascript
 {
   modules: [
     [ '@nuxtjs/guess', { GA: '1234567' }]
  ]
-}
-```
-
-Using top level options
-
-```javascript
-{
-  modules: [
-    [ '@nuxtjs/guess' ]
-  ],
-  guess: { GA: '123456' }
 }
 ```
 
@@ -38,4 +25,5 @@ Nothing more to do, `@nuxtjs/guess` will automagically prefetch the routes depen
 
 ## License
 
-MIT
+[MIT](https://opensource.org/licenses/MIT)
+
