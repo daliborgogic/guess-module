@@ -2,6 +2,8 @@
 
 > Guess.js integration for Nuxt.js with [guess-webpack](https://www.npmjs.com/package/guess-webpack)
 
+[![CircleCI](https://circleci.com/gh/daliborgogic/guess-module.svg?style=svg)](https://circleci.com/gh/daliborgogic/guess-module)
+
 ## Setup
 
 - Add @nuxtjs/guess dependency using yarn or npm to your project
