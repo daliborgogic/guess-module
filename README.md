@@ -12,7 +12,7 @@
 ```javascript
 {
   modules: [
-    [ '@nuxtjs/guess', { GA: '1234567' }]
+    [ '@nuxtjs/guess', { GA: 'XXXXXXX' }]
  ]
 }
 ```
