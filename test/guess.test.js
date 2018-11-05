@@ -1,12 +1,12 @@
 import { resolve } from 'path'
-import { Nuxt, Builder } from 'nuxt-edge'
+import { Nuxt, Builder } from 'nuxt'
 import test from 'ava'
 
 let nuxt = null
 
 test.before(async () => {
   const config = {
-    dev: false,
+    dev: true,
     rootDir: resolve(__dirname, '..')
   }
   nuxt = new Nuxt(config)
