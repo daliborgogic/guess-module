@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import { Nuxt, Builder } from 'nuxt-edge'
+import { Nuxt, Builder } from 'nuxt'
 import test from 'ava'
 
 let nuxt = null
