@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/guess",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Guess.js integration for Nuxt.js",
   "scripts": {
     "lint": "node_modules/.bin/eslint --ext .js lib test",
