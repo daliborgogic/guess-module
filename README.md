@@ -8,13 +8,18 @@
 
 - Add `@nuxtjs/guess` dependency using yarn or npm to your project
 - Add `@nuxtjs/guess` to modules section of `nuxt.config.js`
+- If using Nuxt > 2.4.0, set `router.prefetchLinks` to `false` in `nuxt.config.js`
 
 ```javascript
-{
+ {
   modules: [
     [ '@nuxtjs/guess', { GA: 'XXXXXXX' }]
- ]
-}
+   ]
+ },
+ // Nuxt > 2.4.0
+ router: {
+    prefetchLinks: false
+ }
 ```
 
 Options given directly to [guess-webpack options](https://www.npmjs.com/package/guess-webpack#advanced-usage).
