@@ -2,7 +2,7 @@
 
 >[ Guess.js](https://github.com/guess-js/guess) integration for [Nuxt.js](https://github.com/nuxt/nuxt.js/) with [guess-webpack](https://www.npmjs.com/package/guess-webpack)
 
-[![CircleCI](https://circleci.com/gh/daliborgogic/guess-module.svg?style=svg)](https://circleci.com/gh/daliborgogic/guess-module)
+![](https://github.com/daliborgogic/guess-module/workflows/Module%20Cross-platform%20CI/badge.svg)
 
 ## Setup
 
@@ -11,14 +11,14 @@
 - If using Nuxt > 2.4.0, set `router.prefetchLinks` to `false` in `nuxt.config.js`
 
 ```javascript
- {
+export default {
   modules: [
     [ '@nuxtjs/guess', { GA: 'XXXXXXX' }]
-   ]
- },
- // Nuxt > 2.4.0
- router: {
+   ],
+   // Nuxt > 2.4.0
+  router: {
     prefetchLinks: false
+  }
  }
 ```
 
