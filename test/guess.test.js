@@ -7,7 +7,27 @@ let nuxt = null
 test.before(async () => {
   const config = {
     dev: false,
-    rootDir: resolve(__dirname, '..')
+    rootDir: resolve(__dirname, '..'),
+    modules: [
+      [resolve(__dirname, '../lib/module.js'), {
+        runtime: {
+          delegate: true,
+          prefetchConfig: {
+            '4g': 0.3,
+            '3g': 0.3,
+            '2g': 0.3,
+            'slow-2g': 0.3
+          }
+        },
+        routeProvider: false,
+        reportProvider: () => Promise
+          .resolve(JSON.parse(require('fs')
+            .readFileSync(resolve(__dirname, 'routes.json'))))
+      }]
+    ],
+    router: {
+      prefetchLinks: false
+    }
   }
   nuxt = new Nuxt(config)
   await new Builder(nuxt).build()

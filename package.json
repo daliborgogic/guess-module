@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/guess",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Guess.js integration for Nuxt.js",
   "scripts": {
     "lint": "node_modules/.bin/eslint --ext .js lib test",
@@ -27,8 +27,7 @@
   },
   "keywords": [
     "nuxt",
-    "guess",
-    "guess nuxt"
+    "guess"
   ],
   "author": "Dalibor Gogic <mail@daliborgogic.com>",
   "license": "MIT",
