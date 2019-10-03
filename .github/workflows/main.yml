@@ -1,9 +1,7 @@
 name: Module Cross-platform CI
 
-on:
-  push:
-    branches:
-      - dev
+on: pull_request
+
 jobs:
   build:
     runs-on: ${{ matrix.os }}
