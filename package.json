@@ -5,8 +5,7 @@
   "scripts": {
     "lint": "node_modules/.bin/eslint --ext .js lib test",
     "pretest": "npm run lint",
-    "test": "node_modules/.bin/ava --serial --verbose",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "test": "node_modules/.bin/ava --serial --verbose"
   },
   "main": "lib/module.js",
   "dependencies": {
@@ -21,8 +20,7 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "nuxt": "^2.10.0",
-    "standard-version": "^7.0.0"
+    "nuxt": "^2.10.0"
   },
   "publishConfig": {
     "access": "public"

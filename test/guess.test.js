@@ -6,7 +6,7 @@ let nuxt = null
 
 test.before(async () => {
   const config = {
-    dev: true,
+    dev: false,
     rootDir: resolve(__dirname, '..')
   }
   nuxt = new Nuxt(config)
