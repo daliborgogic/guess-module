@@ -3,25 +3,6 @@ name: Module Release
 on: [release]
 
 jobs:
-  build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
-        node-version: [12.x]
-    steps:
-    - uses: actions/checkout@v1
-    - name: Use Module ${{ matrix.node-version }} on ${{ matrix.os }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install and test
-      run: |
-        npm i
-        npm test
-      env:
-        CI: true
-
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
