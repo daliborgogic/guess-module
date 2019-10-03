@@ -2,7 +2,7 @@
 
 >[ Guess.js](https://github.com/guess-js/guess) integration for [Nuxt.js](https://github.com/nuxt/nuxt.js/) with [guess-webpack](https://www.npmjs.com/package/guess-webpack)
 
-[![CircleCI](https://circleci.com/gh/daliborgogic/guess-module.svg?style=svg)](https://circleci.com/gh/daliborgogic/guess-module)
+![](https://github.com/daliborgogic/cicd/workflows/Module%20Cross-platform%20CI/badge.svg)
 
 ## Setup
 
