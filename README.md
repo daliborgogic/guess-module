@@ -11,14 +11,14 @@
 - If using Nuxt > 2.4.0, set `router.prefetchLinks` to `false` in `nuxt.config.js`
 
 ```javascript
- {
+export default {
   modules: [
     [ '@nuxtjs/guess', { GA: 'XXXXXXX' }]
-   ]
- },
- // Nuxt > 2.4.0
- router: {
+   ],
+   // Nuxt > 2.4.0
+  router: {
     prefetchLinks: false
+  }
  }
 ```
 
